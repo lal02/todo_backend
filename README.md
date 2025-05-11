@@ -20,7 +20,7 @@ Each `Task` has:
 - An optional `deadline`
 - An optional `deadline-notification` time
 - An optional `repetition` (if the task is known to be repetitive, like household tasks)
-- A optional `note`
+- An optional `note`
 
 ## Planned Features
 - Create and edit categories
