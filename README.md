@@ -23,8 +23,8 @@ Each `Task` has:
 - An optional `note`
 
 ## Planned Features
-- Create and edit categories
-- Create, edit, and change the status of tasks
+- Create and edit categories (done)
+- Create, edit, and change the status of tasks (done)
 - Email notifications about tasks close to the deadline
 - Export and import of all tasks via JSON file
 - Output with multiple sorting options: task priority, task priority and category, category, etc.

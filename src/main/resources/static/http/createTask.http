@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/task
+Content-Type: application/json
+
+{
+  "name": "testtask",
+  "priority": "LOW",
+  "category": {
+    "id": 0,
+    "name": "ungrouped",
+    "priority": "MEDIUM"
+  },
+  "status": "OPEN",
+  "deadline": "2025-05-10T22:43:11",
+  "notificationLeadTime": 3,
+  "repetitionDelay": 2,
+  "note": "das ist eine notiz!!!"
+}
+###

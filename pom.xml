@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lalbr.</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>todolist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>todolist_backend</name>

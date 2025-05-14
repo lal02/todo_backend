@@ -31,11 +31,11 @@ public class TodoService {
         return taskRepository.findAllByCategory(category);
     }
 
-    public TaskModel saveTaskModel(TaskModel taskModel){
-        return taskRepository.save(taskModel);
+    public void saveTaskModel(TaskModel taskModel){
+        taskRepository.save(taskModel);
     }
 
-    public CategoryModel saveCategoryModel(CategoryModel categoryModel){
-        return categoryRepository.save(categoryModel);
+    public void saveCategoryModel(CategoryModel categoryModel){
+        categoryRepository.save(categoryModel);
     }
 }
